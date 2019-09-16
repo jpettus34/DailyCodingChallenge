@@ -1,3 +1,9 @@
+# Given a list of rules for the color sequence wires can be cut
+# print 'Boom' if no permutation of the input colors follows the rules
+# print 'defused' if at least one permutation of the inputs follows the 
+# given sequence rules (I don't want to type out the rules, but you can
+# infer them from the below logic)
+
 from sympy.utilities.iterables import multiset_permutations
 
 def testList(l):

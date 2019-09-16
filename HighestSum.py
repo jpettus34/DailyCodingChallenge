@@ -1,3 +1,4 @@
+# Write a method that returns the highest sum possible from consecutive elements in the list
 def dailyChallenge(a):
     size = len(a)
     max_so_far =a[0] 
